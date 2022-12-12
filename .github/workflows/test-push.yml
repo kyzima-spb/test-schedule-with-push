@@ -3,6 +3,7 @@ name: Testing the push action
 on:
   schedule:
     - cron: '30 3 * * *'
+    - cron: '45 17 * * *'
   push:
     paths:
       - .github/workflows/test-push.yml
